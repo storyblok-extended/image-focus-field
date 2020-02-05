@@ -1,22 +1,5 @@
 <template>
 	<div>
-		<!-- <input
-			v-bind:class="{
-				'uk-width-1-1': true,
-				'uk-range': is_range,
-				'uk-input': !is_range
-			}"
-			v-bind:style="
-				is_range ? { paddingRight: padding + 'px', paddingLeft: '5px' } : ''
-			"
-			v-bind:placeholder="options.placeholder || null"
-			v-bind:type="is_range ? 'range' : 'number'"
-			v-bind:min="model.min"
-			v-bind:max="model.max"
-			v-bind:step="model.step"
-			v-model.number="model.value"
-		/> -->
-
 		<div class="uk-margin-bottom">
 			Source:
 			<input
@@ -89,7 +72,7 @@ export default {
 		},
 		getDefaults() {
 			return {
-				plugin: 'ef-sbe-image-focus',
+				plugin: 'sbe-image-focus',
 				// src: 'https://picsum.photos/2400/1400',
 				src: '',
 				x: '0.00',
@@ -101,7 +84,7 @@ export default {
 			return this.getDefaults();
 		},
 		pluginCreated() {
-			// console.log('sbe-number-range', 'plugin:created', this.options);
+			// console.log('sbe-image-focus', 'plugin:created', this.options);
 		}
 	},
 	watch: {
