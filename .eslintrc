@@ -1,0 +1,14 @@
+{
+	"root": true,
+	"env": {
+		"node": true
+	},
+	"extends": ["plugin:vue/essential", "@anvilabs/eslint-config"],
+	"rules": {
+		"no-restricted-globals": "warn",
+		"import/no-anonymous-default-export": "off"
+	}
+	// "parserOptions": {
+	// 	"parser": "babel-eslint"
+	// }
+}

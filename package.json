@@ -1,0 +1,36 @@
+{
+	"name": "image-focus-field",
+	"description": "A Storyblok field to set a focal point within an image.",
+	"author": {
+		"name": "vabatta"
+	},
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "npm run serve",
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"image-focus": "^1.1.0",
+		"vue": "^2.5.2"
+	},
+	"devDependencies": {
+		"@anvilabs/eslint-config": "^19.1.0",
+		"@vue/cli-plugin-babel": "^3.2.0",
+		"@vue/cli-plugin-eslint": "^3.2.0",
+		"@vue/cli-service": "^3.2.0",
+		"ajv": "^5.5.2",
+		"babel-eslint": "^10.0.1",
+		"eslint": "^5.8.0",
+		"eslint-plugin-vue": "^5.0.0",
+		"prettier": "^1.19.1",
+		"vue-template-compiler": "^2.5.21"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not ie <= 8"
+	]
+}
